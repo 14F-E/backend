@@ -10,7 +10,7 @@
             "url": "http://localhost:5000"
         },
         {
-            "url": "https://jedliksession.cyclic.app"
+            "url": "https://shopking.cyclic.app"
         }
     ],
     "paths": {
@@ -1350,17 +1350,17 @@
                 }
             },
             "ErrorSchema": {
-              "type": "object",
-              "properties": {
-                "message": {
-                  "type": "string",
-                  "example": "error.message value"
-                },
-                "status": {
-                  "type": "integer",
-                  "example": 400
+                "type": "object",
+                "properties": {
+                    "message": {
+                        "type": "string",
+                        "example": "error.message value"
+                    },
+                    "status": {
+                        "type": "integer",
+                        "example": 400
+                    }
                 }
-              }
             }
         }
     }
